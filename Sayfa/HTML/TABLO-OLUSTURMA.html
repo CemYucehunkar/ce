@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Araç Liste Fiyatları </title>
+</head>
+
+<body>
+    <table border="2" >   <!-- Tablonun kenar kalınlığını belirlemek için kullanılır-->
+        <thead>
+            <tr>
+                <th>Araç Adı</th>
+                <th>Fiyatı</th>
+                <th>Açıklama</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>X</td>
+                <td>100.000</td>
+                <td rowspan="2">Açıklama1</td>
+            </tr>
+            <tr>
+                <td>Y</td>
+                <td>250.000</td>
+                
+            </tr>
+            <tr>
+                
+                <td colspan="3">Açıklama3</td>     <!-- Aynı satırdaki kutuları birleştirmek için  <td colspan="2"> yazarsak 2 kutuyu birleştirir. Sonrasında birleştirilen 
+                kutuların kodlarını silmek gerekiyor-->  
+                <!-- Aynı SÜTUNdaki kutuları birleştirmek içinse <td ROWSPAN="2"> şeklinde yapabiliriz. 
+                    sütunları birleştirmek için üstteki yere kodu yazmak gerekiyor-->
+            </tr>  
+        </tbody>
+    </table>
+</body>
+
+</html>
